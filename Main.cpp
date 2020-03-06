@@ -1,12 +1,13 @@
-#include <Windows.h>
-#include <chrono>
-
 #define BAT_SPEED 10
 #define TOP 1000
 #define RIGHT 1001
 #define BOTTOM 1002
 #define LEFT 1003
 #define BAT_WIDTH 10
+
+#include <Windows.h>
+#include <chrono>
+
 
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 void moveBall();
